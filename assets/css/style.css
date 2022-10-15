@@ -7,7 +7,7 @@
 body {
     /* style the body */
     font-family: Helvetica, Arial, sans-serif;
-    color: #9f84bd;
+    color: #1c0221;
 }
 
 /* apply style to header */
@@ -67,4 +67,61 @@ footer div {
 
 footer a {
     color: black;
+}
+
+/* sections */
+section {
+    padding: 60px;
+}
+
+/* hero styling */
+.hero {
+    background-image: url("../images/IMG_1456.jpeg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-form {
+    /* color: #024e76; */
+    color: white;
+    background-color: #938274;
+    width: 500px;
+    padding: 20px;
+    border: solid 3px #1c0221;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #1c0221;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #1c0221;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    color: white;
+    background-color: #1c0221;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
 }
