@@ -11,7 +11,6 @@
     <!-- navigation -->
     <header>
         <h1><a href="/">FIT CONNECT</a></h1>
-                
         <nav>
             <ul>
                 <li>
@@ -33,32 +32,59 @@
 
     <!-- hero/jumbotron -->
     <section>
+        <div>
+            <h3>Lets Explore Together</h3>
+            <p>Fill out the form to connect</p>
+            <!-- add form element -->
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" placeholder="Name" name="name" id="name"/>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Email" name="email" id="email"/>
+                <label for="phone">Phone</label>
+                <input type="tel" placeholder="Phone" name="phone" id="phone"/>
+                <!-- for radio -->
+                <p>
+                    Have you explored with a partner before?
+                    <input type="radio" name="coach-confirm" id="coach-yes" />
+                    <label for="coach-yes">Yes</label>
+                    <input type="radio" name="coach-confirm" id="coach-no" />
+                    <label for="coach-no">No</label>
+                </p>
+                <!-- checkbox input -->
+                <p>
+                    <label for="checkbox">
+                        I acknowledge that I am at least 18 years of age
+                    </label>
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+                </p>
+                <!-- submit button -->
+                <button type="submit">
+                    Connect
+                </button>
+            </form>
+        </div>
     </section>
 
     <!-- company focus -->
     <section>
         <h2>Our Focus</h2>
     </section>
-
     <!-- client focus -->
     <section>
         <h2>Your Focus</h2>
     </section>
-
     <!-- coaches/trainers -->
     <section>
         <h2>Coaches</h2>
     </section>
-    
     <!-- contacts -->
     <section>
         <h2>Contacts</h2>
     </section>
-
     <!-- footer -->
     <footer>
         <h2>Fit Connect 2.0</h2>
-
         <div> 
             <a href="#">Privacy Policy</a><br />
             &copy; 2022 Praise Opara.

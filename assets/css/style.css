@@ -13,19 +13,19 @@ body {
 /* apply style to header */
 header {
     padding: 20px 35px;
-    background-color: #9f84bd;
+    background-color: #938274;
 }
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: black;
+    color: white;
     margin: 0;
     display: inline;
 }
 
 header a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -46,14 +46,14 @@ header nav ul li a {
 
 /* style the footer */
 footer {
-    background: #9f84bd;
+    background: #7b5e7b;
     width: 100%;
     padding: 40px 35px;
 }
 
 footer h2 {
     display: inline;
-    color: black;
+    color: white;
     font-size: 30px;
     margin: 0;
 }
